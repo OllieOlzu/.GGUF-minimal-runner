@@ -14,4 +14,5 @@ set /p choice=Enter number of model to load:
 
 set MODEL=!model[%choice%]!
 
-llama-b7327-bin-win-cpu-x64\llama-cli.exe -m "%MODEL%" -p "Hello"
+llama-b7327-bin-win-cpu-x64\llama-cli.exe -m "%MODEL%" 
+
